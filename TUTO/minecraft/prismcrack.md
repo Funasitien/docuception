@@ -1,5 +1,5 @@
 ---
-title: PrismUnlocked
+title: 📄 PrismUnlocked
 description: Un Launcher crack qui n'est pas russe
 tags:
   - minecraft

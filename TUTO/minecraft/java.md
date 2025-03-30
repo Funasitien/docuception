@@ -1,5 +1,5 @@
 ---
-title: Java
+title: 📄 Installer Java
 tags:
   - minecraft
   - tuto

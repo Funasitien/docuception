@@ -6,7 +6,6 @@ tags:
   - launcher
   - java
 order: 2
-template: folder
 ---
 
 # Comment installer JAVA ?

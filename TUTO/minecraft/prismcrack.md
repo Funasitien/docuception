@@ -8,7 +8,6 @@ tags:
   - prism
   - crack
 order: 1
-template: folder
 ---
 
 ![banner prism](https://raw.githubusercontent.com/Diegiwg/PrismLauncher-Cracked/develop/program_info/org.prismlauncher.PrismLauncher.logo.source.svg)

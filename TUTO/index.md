@@ -1,7 +1,5 @@
 ---
 title: 📚 TUTORIELS
+order: 0
+template: folder
 ---
-
-> [!BUG] WORK-IN-PROGRESS
-
-[[index|🏠 Retour à l'accueil]]

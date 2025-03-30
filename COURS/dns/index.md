@@ -1,7 +1,10 @@
 ---
 draft: true
 title: 🗺 DNS
+order: 3
+template: folder
 ---
+
 Le DNS est un protocole, comme l'HTTP ou le TCP/IP qui permet de résoudre les propriétés des noms de domaines
 
 # 🔣 Composition des noms de domaines

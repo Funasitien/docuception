@@ -1,5 +1,6 @@
 ---
-title: ✒️ ONE DAY ON EARTH
+order: 0
+template: folder
 ---
 
 > [!BUG] WORK-IN-PROGRESS
@@ -7,5 +8,3 @@ title: ✒️ ONE DAY ON EARTH
 **One Day On Earth** is a French and English list of essays
 
 ![Animated Sky](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png)
-
-#### [[index|🏠 Retour à l'accueil]]

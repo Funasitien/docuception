@@ -1,6 +1,5 @@
 ---
 draft: true
-enableToc: false
 ---
 > [!DANGER] Si tu est tombé ici par hasard...
 > Ce mélange de note est incompréhensible. Retourne fouiller mon site principal, ok ?
@@ -13,4 +12,3 @@ enableToc: false
 <br><i>Comme c'est une page publique, je censurerais les prénoms et nom de famille - comme je me fait dox fréquemment - et c'est pas une experience que je te souhaite</i></span>
 
 ## Storyline
-

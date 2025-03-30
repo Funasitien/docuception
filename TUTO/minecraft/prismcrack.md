@@ -7,9 +7,11 @@ tags:
   - launcher
   - prism
   - crack
+order: 1
+template: folder
 ---
 
-![Example banner](https://raw.githubusercontent.com/Diegiwg/PrismLauncher-Cracked/develop/program_info/org.prismlauncher.PrismLauncher.logo.source.svg)
+![banner prism](https://raw.githubusercontent.com/Diegiwg/PrismLauncher-Cracked/develop/program_info/org.prismlauncher.PrismLauncher.logo.source.svg)
 
 > [!DANGER]
 > Si vous avez TLauncher sur votre ordinateur, Installer PrismUnlocked et désinstaller TLauncher tout de suite ! Non pas parce qu'il est russe, mais parce qu'il contient différents virus et mineurs de cryptomonées. De rien

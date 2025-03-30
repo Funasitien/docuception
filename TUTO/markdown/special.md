@@ -4,6 +4,7 @@ tags:
   - markdown
   - tuto
   - en
+order: 22
 ---
 Some characters in Obsidian/Quartz have strange abilities. Let's take a look on them
 

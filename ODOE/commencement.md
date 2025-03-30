@@ -1,6 +1,7 @@
 ---
 title: 🔮 Histoire que vous compreniez...
 description: Il faudrait bien que je vous l'explique un jour.
+order: 1
 ---
 
 J'ai toujours voulu commencer cette série, mais je n'ai jamais trouvé le courage d'écrire cette première ligne. De remplir cette première page.

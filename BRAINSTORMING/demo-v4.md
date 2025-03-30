@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 ---
 # 🔎 Contexte
 Comme le petit fufu prend des vacances aussi, il note ses idées passagères quelque part (ici) pour ne pas les oublier

@@ -11,13 +11,13 @@ export const gitConfig = {
 export function baseOptions(): BaseLayoutProps {
   return {
     nav: {
-      title: "Funasitien's Wiki",
+      title: "Docuception",
     },
     links: [
       {
         icon: <HeartIcon />,
         text: 'Support my work',
-        url: '/blog',
+        url: 'https://github.com/sponsors/Funasitien',
       },
     ],
     githubUrl: `https://github.com/${gitConfig.user}/${gitConfig.repo}`,

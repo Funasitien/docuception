@@ -13,17 +13,25 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <HomeLayout {...baseOptions()}>
-      <div className="p-4 flex flex-col items-center justify-center text-center flex-1">
-        <h1 className="text-xl font-bold mb-2">Fumadocs on React Router.</h1>
-        <p className="text-fd-muted-foreground mb-4">
-          The truly flexible docs framework on React.js.
-        </p>
-        <Link
-          className="text-sm bg-fd-primary text-fd-primary-foreground rounded-full font-medium px-4 py-2.5"
-          to="/docs"
-        >
-          Open Docs
-        </Link>
+      <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-6 py-12">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Welcome to Docuception</h1>
+          <p className="text-lg text-fd-muted-foreground mb-8">
+            A centralized collection of projects, notes, and demos. 
+            Click on the button bellow to select a project to learn more about.
+          </p>
+
+          <div className="flex items-center justify-center gap-4">
+            <Link
+              to="/docs"
+              className="inline-flex items-center gap-2 bg-fd-primary text-fd-primary-foreground px-5 py-3 rounded-full font-semibold"
+            >
+              See Projects
+            </Link>
+
+          </div>
+        </div>
+
       </div>
     </HomeLayout>
   );

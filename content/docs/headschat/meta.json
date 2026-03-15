@@ -1,6 +1,7 @@
 {
   "title": "HeadsChat",
-  "icon": "Box",
+  "description": "Custom Minecraft chat plugin with head support.",
+  "icon": "Heading",
   "root": true,
   "defaultOpen": true
 }

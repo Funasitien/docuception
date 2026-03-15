@@ -1,5 +1,5 @@
 import type { Config } from '@react-router/dev/config';
-import { glob } from 'node:fs/promises';
+import fg from 'fast-glob';
 import { createGetUrl, getSlugs } from 'fumadocs-core/source';
 
 const getUrl = createGetUrl('/docs');
@@ -17,12 +17,12 @@ export default {
       if (!excluded.includes(path)) paths.push(path);
     }
 
-    for await (const entry of glob('**/*.mdx', { cwd: 'content/docs' })) {
+    for await (const entry of fg.stream('**/*.mdx', { cwd: 'content/docs' })) {
       const slugs = getSlugs(entry);
       paths.push(getUrl(slugs), `/llms.mdx/docs/${[...slugs, 'index.mdx'].join('/')}`);
     }
 
-    for await (const entry of glob('**/*.md', { cwd: 'content/docs' })) {
+    for await (const entry of fg.stream('**/*.md', { cwd: 'content/docs' })) {
       const slugs = getSlugs(entry);
       paths.push(getUrl(slugs), `/llms.mdx/docs/${[...slugs, 'index.mdx'].join('/')}`);
     }

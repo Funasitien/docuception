@@ -1,6 +1,12 @@
 ---
 title: PlaceholderAPI
-description: HeadsChat is compatible with PlaceholderAPI
+description: HeadsChat can be used in any plugin that supports PlaceholderAPI
 ---
 
-Add a placeholder to anywhere in the config and poof magic
+## PlaceholderAPI Extension
+
+<Callout title="This is not a magic option!" type="error">
+    HeadChat's placeholders only work if the plugin supports custom minimessage components (PlaceholderAPI 1.11+). If the plugin does not support this, the placeholders will not work. And if the plugin does support this, then you can use `<head:%pleayer_name%>` and do not use this feature whatsoever.
+</Callout>
+
+Use `<head:%player_name%>` to display the head of a player in any plugin that supports PlaceholderAPI. This will work in any plugin that supports PlaceholderAPI, such as chat plugins, scoreboard plugins, and more.
